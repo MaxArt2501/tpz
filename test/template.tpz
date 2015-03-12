@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to {{ place }}!</title>
+    </head>
+    <body>
+        Here you will find...
+        {{#persons}}
+        {{> person}}
+        {{/persons}}
+        {{^persons}}
+        <em>nobody</em>, sadly.
+        {{/persons}}
+    </body>
+</html>

@@ -1,0 +1,1 @@
+<div class="person">{{ name }} {{ surname }}, {{ age }}</div>
